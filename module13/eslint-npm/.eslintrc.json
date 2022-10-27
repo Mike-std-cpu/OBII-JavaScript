@@ -4,7 +4,7 @@
         "commonjs": true,
         "es2021": true
     },
-    "extends": "eslint:recommended",
+    "extends": "eslint:recommended",//reglas de ESLint para el codigo externa  a esta configuiracion
     "parserOptions": {
         "ecmaVersion": "latest"
     },
@@ -24,6 +24,7 @@
         "semi": [
             "error",
             "never"
-        ]
+        ],
+        "no-unused-vars": "off" // OVER RIDE ; Sobre escritura de las reglas, esta manera elimina el error de const
     }
 }
