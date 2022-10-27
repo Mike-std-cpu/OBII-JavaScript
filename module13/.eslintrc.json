@@ -1,1 +1,14 @@
 // Este es un archvio de configuracion de reglas de ESLint
+// Desde la pagina oficial de ESLint podemos cambiar y ver la documentacion de configuracion
+//https://eslint.org/docs/latest/rules/
+
+{
+    "rules": {
+        // Override our default settings just for this directory
+        "eqeqeq": "warn",
+        "strict": "off",
+        "quotes": ["error", "double"],
+        "semi": ["error", "never"],
+        "no-dupe-keys":"error"
+    }
+}
