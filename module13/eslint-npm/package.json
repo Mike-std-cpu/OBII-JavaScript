@@ -8,7 +8,7 @@
   },
   "author": "Miguel Andrade",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^8.26.0"
   }
 }
