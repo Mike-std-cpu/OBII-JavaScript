@@ -4,4 +4,4 @@ const persona = "Sarai"
 
 const string = "String con comillas simples"
 
-console.log("hola");
+console.log("hola")
