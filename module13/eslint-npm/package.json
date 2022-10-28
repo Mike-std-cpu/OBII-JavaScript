@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "lint-fix":"eslint --fix .",
     "start": "node index-eslint.js"
   },
   "author": "Miguel Andrade",
