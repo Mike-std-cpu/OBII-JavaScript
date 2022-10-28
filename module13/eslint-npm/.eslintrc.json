@@ -18,13 +18,14 @@
             "windows"
         ],
         "quotes": [
-            "error",
+            "warn",
             "double"
         ],
         "semi": [
             "error",
             "never"
         ],
-        "no-unused-vars": "off" // OVER RIDE ; Sobre escritura de las reglas, esta manera elimina el error de const
+        "no-unused-vars": "off",
+        "no-console" :"error"
     }
 }
