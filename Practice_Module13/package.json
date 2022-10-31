@@ -1,0 +1,14 @@
+{
+  "name": "practice_module13",
+  "version": "1.0.0",
+  "description": "Practica 13 de el OpenBootcamp con las funciones de ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.26.0"
+  }
+}
