@@ -4,7 +4,9 @@
   "description": "Practica 13 de el OpenBootcamp con las funciones de ESLint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint-fix":"eslint --fix .",
+    "start": "node index.js"
   },
   "author": "Miguel Andrade",
   "license": "ISC",
