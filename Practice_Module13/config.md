@@ -55,3 +55,9 @@ npm i eslint
 ````
 
 > _**Nota**_: _Esta config debe de ir bien estructurada en la sección de "script" dentro del nuestro file `.json`_
+
+[More information 🚀](https://eslint.org/docs/latest/user-guide/configuring/configuration-files#configuration-file-formats)
+
+---
+    
+🪄 Thanks for watching [@Mike Andrade](https://github.com/Mike-std-cpu)<img align="left" alt="xd" width="35" height="35" src="https://i.gifer.com/origin/08/089af74235a38edcc7b433321f0a5472_w200.webp" />
