@@ -3,3 +3,6 @@ function suma (num1, num2){
 }
 
 console.log(`La suma dentro de javascript es: ${suma(6,4)}`);
+
+const p = document.getElementById("parrafo");
+console.log(`Se cacho la etiqueta desde JS: ${p}`);
