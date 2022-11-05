@@ -4,8 +4,13 @@
   "description": "PROJECT WITH js AND hml",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ."
+    "start": "http-server .",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix ."
   },
   "author": "Miguel Andrade",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.26.0"
+  }
 }
