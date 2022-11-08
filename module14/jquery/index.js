@@ -11,9 +11,15 @@ $(() => {
     //$("h1").hide()
 
     // referenciar ID es con " # "
-    $("#b-hide").hide()
+    $("#b-hide").click(() => {
+        console.log("Ocultando...")
+        $("#EL-1").hide()
+    })
 
     // referenciar class con " . "
-    $(".b-show").hide()
+    $(".b-show").click(()=>{
+        console.log("Mostrando...")
+        $("#EL-1").show()
+    })
 
 })
