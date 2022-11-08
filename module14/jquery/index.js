@@ -13,13 +13,17 @@ $(() => {
     // referenciar ID es con " # "
     $("#b-hide").click(() => {
         console.log("Ocultando...")
-        $("#EL-1").hide()
+        $("#EL-1").hide() // Otra opcion seria .fadeOut()
     })
 
     // referenciar class con " . "
     $(".b-show").click(()=>{
         console.log("Mostrando...")
-        $("#EL-1").show()
+        $("#EL-1").show() // Otra opcion seria .fadeIn()
+    })
+
+    $("li").click(()=>{ //con doble click es: dblclick()
+        $("h1").css({color: "Gold"})
     })
 
 })
