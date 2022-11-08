@@ -26,4 +26,7 @@ $(() => {
         $("h1").css({color: "Gold"})
     })
 
+    $(".new-element").click(()=>{
+        $("ul").append("<li> New Element</li>")
+    })
 })
