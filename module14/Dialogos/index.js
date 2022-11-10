@@ -7,5 +7,9 @@ console.log(boton)
 
 boton.addEventListener("click",()=>{
     console.log("Se dio click...");
-    alert("Se ha hecho cclick")
+    //alert("Se ha hecho cclick");
+
+    //OPERADOR TERNEARIO
+    confirm("¿Estas deacuerdo?") ? console.log("Confirmando...") : console.log("¡Cancelando!");
+
 })
