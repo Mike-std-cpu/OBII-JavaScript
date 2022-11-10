@@ -11,5 +11,11 @@ boton.addEventListener("click",()=>{
 
     //OPERADOR TERNEARIO
     confirm("¿Estas deacuerdo?") ? console.log("Confirmando...") : console.log("¡Cancelando!");
+})
 
+const info = document.querySelector("#info")
+
+info.addEventListener("click", ()=>{
+     const namee = prompt("¿Cual es tu nombre?") ? console.log(`Your name is.. ${namee}`) : console.log("No has introducido nada");
+     
 })
