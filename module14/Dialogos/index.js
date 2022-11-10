@@ -19,3 +19,16 @@ info.addEventListener("click", ()=>{
      const namee = prompt("¿Cual es tu nombre?") ? console.log(`Your name is.. ${namee}`) : console.log("No has introducido nada");
      
 })
+
+const lista = [{
+    name: "Mike",
+    age: 24
+}, {
+    name: "Karina",
+    age: 24
+}, {
+    name: "Cristhian",
+    age: 25
+}]
+
+console.table(lista)
