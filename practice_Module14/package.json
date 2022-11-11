@@ -4,6 +4,7 @@
   "description": "Practica del modulo 14 open bootcamp",
   "main": "index.js",
   "scripts": {
+    "start": "http-server .",
     "lint": "eslint .",
     "lint-fix": "eslint --fix ."
   },
