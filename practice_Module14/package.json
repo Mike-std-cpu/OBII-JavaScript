@@ -4,13 +4,13 @@
   "description": "Practica del modulo 14 open bootcamp",
   "main": "index.js",
   "scripts": {
-    
     "lint": "eslint .",
     "lint-fix": "eslint --fix ."
   },
   "author": "Miguel Andrade",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^8.27.0"
+    "eslint": "^8.27.0",
+    "http-server": "^14.1.1"
   }
 }
