@@ -5,7 +5,7 @@ Hay varios otros mecanismos de almacenamiento disponibles en el navegador, pero 
 - **SessionStorage** es específico de una pestaña y se ajusta a la vida útil de la pestaña. _Puede ser útil para almacenar pequeñas cantidades de información específica de la sesión_.
 > Si debiermoas poner un ejemplo, una clave de IndexedDB. Debe usarse con precaución porque es sincrónico y bloqueará el hilo principal. Está limitado a unos 5 MB y solo puede contener cadenas. Debido a que es específico de una pestaña, los web workers o los service workers no pueden acceder a él.
 
-- **LocalStorage** debe evitarse porque es sincrónico y bloqueará el hilo principal. Está limitado a unos 5 MB y solo puede contener cadenas. LocalStorage no es accesible para web workers o service workers.
+- **LocalStorage** debe evitarse porque es sincrónico y bloqueará el hilo principal. Está limitado a unos 5 MB y solo puede contener cadenas. LocalStorage no es accesible para web workers o service workers. Esta asociada a toda la informacion del *browser*
 
 - **Las cookies** tienen ciertos usos, pero no deben usarse para almacenamiento. Las cookies se envían con cada solicitud HTTP, por lo que almacenar algo más que una pequeña cantidad de datos aumentará significativamente el tamaño de cada solicitud web. Son sincrónicas y los web workers no pueden acceder a ellas. Al igual que LocalStorage y SessionStorage, las cookies se limitan solo a cadenas.
 
