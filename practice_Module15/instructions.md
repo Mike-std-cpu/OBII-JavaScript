@@ -31,3 +31,7 @@ Crea un nuevo proyecto de Node
 - Observa cómo la LocalStorage sigue manteniendo el objeto que has almacenado antes de cerrar el navegador
 
 - Observa cómo la cookie sigue manteniendo el objeto que has almacenado antes, aunque ya está caducado
+
+## Observaciones. 🤔
+
+> Se pudieron ver los resultados deseados señalados en los ultimos puntos, solo como obervacion, dudo que la declaracion de `new date()` este correcta como la declare, espero poder factorizarlo de una mejor manera.
