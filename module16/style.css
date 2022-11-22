@@ -4,10 +4,24 @@
     margin: 1rem;
 }
 .parrafo{
-    background-color: wheat;
+    background-color:darkseagreen;
     padding: 1rem;
 }
 
 .parrafo.Dragging{
     opacity: 0.3;
+}
+
+.fantasma {
+    background-image: url("./img/images.jpg");
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: -100vw;
+}
+.title-section{
+    color:cadetblue;
+    text-align: center;
+    padding: 1rem;
+    background-color: wheat
 }

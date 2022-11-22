@@ -11,6 +11,8 @@ parrafos.forEach(parrafo => {
     console.log(`Estoy arrastrando el parrafo: ${parrafo.innerText}`); // InnerText agreg el terxto del parrafo
     parrafo.classList.add("Dragging") // Añadira una clase al elemento parrafo llamado "Dragging" cuando lo arrastre
     event.dataTransfer.setData("id", parrafo.id)
+    const img_fantasma = document.querySelector(".fantasma")
+    event.dataTransfer.setDragImage(img_fantasma,0,0)
  })
 
  parrafo.addEventListener("dragend", () =>{
