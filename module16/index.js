@@ -30,5 +30,7 @@ secciones.forEach(seccion =>{
       console.log("Drop");
       const id_parrafo = event.dataTransfer.getData("id")
       console.log(`Parrafo id: ${id_parrafo}`);
+      const parrafo = document.getElementById(id_parrafo)
+      seccion.appendChild(parrafo)
    })
 })
