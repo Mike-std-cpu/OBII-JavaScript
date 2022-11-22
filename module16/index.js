@@ -23,6 +23,7 @@ parrafos.forEach(parrafo => {
 secciones.forEach(seccion =>{
    seccion.addEventListener("dragover", event =>{
       event.preventDefault()
+      event.dataTransfer.dropEffect = "copy" // cambios de los iconos del cursos al mover el elemento
      //console.log("Drag-Over");
    })
 
