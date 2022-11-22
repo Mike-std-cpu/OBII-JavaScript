@@ -7,6 +7,7 @@ Para poder anexar mapas graficos dentro de nuestro documento html o sitio web es
 1. Creación
 
 Dentro de nuestro archvio HTML podemos tener todo el contenio que nosotros deseomos, pero en especiifico hablando de la sección de mapa de google, debemos tener lo siguiente:
+
 ````html
 <body>
     <h3>My Google Maps Demo</h3>
