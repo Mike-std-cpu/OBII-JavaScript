@@ -1,10 +1,11 @@
 // Initialize and add the map
 let marker, map;
-
 function initMap() {
     console.log("Inicializando mapa");
     // The location of Uluru
     const posicion = { lat: -25.344, lng: 131.031 };
+    const pos2 ={lat: 40.671531, lng: -73.963588};
+    const pos3 ={ lat: 40.672587, lng: -73.968146};
 
     // The map, centered at Uluru
     map = new google.maps.Map(document.getElementById("map"), {
@@ -37,7 +38,9 @@ geoPosicion()
         }
         console.log(nuevaPosi);// preuba
         marker.setPosition(nuevaPosi)// ingresar las cordenadas
-        map.setCenter(nuevaPosi)//centrar el mapa en la ubicacion
+        //
+        map.setCenter(nuevaPosi)//centrar el mapa en la ubicacion       
+        
     }
 
     function onError(error){// esto si el navegador no adminte goelocalizacion o no tiene los permisos correspondientes
